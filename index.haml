@@ -1,0 +1,80 @@
+!!! 5
+%html
+    %body
+        %div
+            %form
+                %fieldset.bord
+                    %h1 Registration FORM
+                    %label(for="name") User id:
+                    %input(type="text" id="name" name="fname" class="inp" placeholder="Required and must be of length 5 to 12 ")
+                    %br
+                    %br
+                    %label(for="name") Password:
+                    %input(type="text" id="name" name="fname" class="inp" placeholder="Required and must be of length 5 to 12 ")
+                    %br
+                    %br
+                    %label(for="name") Name :
+                    %input(type="text" id="name" name="fname" class="inp" placeholder="Required and must be of length 5 to 12 ")
+                    %br
+                    %br
+                    %label(for="name")Address :
+                    %input(type="text" id="name" name="fname" class="inp" placeholder="Required and must be of length 5 to 12 ")
+                    %br
+                    %br
+                    %label(for="name") Country :
+                    %input(type="text" id="name" name="fname" class="inp" placeholder="Please select a country ")
+                    %br
+                    %br
+                    %label(for="name") Zip Code :
+                    %input(type="text" id="name" name="fname" class="inp" placeholder="Required and must be of length 5 to 12 ")
+                    %br
+                    %br
+                    %label(for="name") Email :
+                    %input(type="text" id="name" name="fname" class="inp" placeholder="Required and must be of length 5 to 12 ")
+                    %br
+                    %br
+                    %label(for="name") Sex :
+                    %input(type="radio" id="male" name="gender" value="male")
+                    %label(for="name") Male
+                    %input(type="radio" id="female" name="gender" value="female")
+                    %label(for="name")Female
+                    %input(type="text" id="name" name="fname" class="inp" placeholder="Required")
+                    %br
+                    %br
+                    %label(for="name") Language :
+                    %input(type="radio" id="male" name="gender" value="male")
+                    %label(for="name") English
+                    %input(type="radio" id="female" name="gender" value="female")
+                    %label(for="name") non English
+                    %input(type="text" id="name" name="fname"  placeholder="Required")
+                    %br
+                    %br
+                    %label(for="name") About :
+                    %textarea(name="message" rows="15" cols="60")
+                        optional
+                    %br
+                    %br
+                    %br
+                    %button(type="submit" class="btn")Submit
+                
+        :css
+            .bord {
+                width:50%;
+                background:lightblue;
+                
+            }
+            .btn {
+                width:70px;
+                padding:10px;
+                background:lightgrey;
+            }
+            .inp{
+                width:300px;
+                padding:10px;
+            }
+
+
+            
+
+
+
